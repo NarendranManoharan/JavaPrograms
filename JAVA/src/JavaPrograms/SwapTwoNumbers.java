@@ -13,12 +13,12 @@ public class SwapTwoNumbers {
 		me=superior;
 		superior=thirdperson;
 
-		System.out.println("Before Swapping: " +"Mine: "+me+" superior: "+superior);
+		System.out.println("After Swapping: " +"Mine: "+me+" superior: "+superior);
 
 
 	}
 	
-	public void withoutUsingThirdVariable() {
+	public void withoutusingThirdVariable() {
 		int me=150;
 		int superior=300;
 		System.out.println("Before Swapping: " +"Mine: "+me+" superior: "+superior);
@@ -27,7 +27,7 @@ public class SwapTwoNumbers {
 		superior=me+superior; //-150+300=150
 		me=superior-me; //150-(-150)=300
 		
-		System.out.println("Before Swapping: " +"Mine: "+me+" superior: "+superior);
+		System.out.println("After Swapping: " +"Mine: "+me+" superior: "+superior);
 	}
 	
 	
@@ -35,7 +35,7 @@ public class SwapTwoNumbers {
 	public static void main(String[] args) {
 
 		SwapTwoNumbers numbers=new SwapTwoNumbers();
-		numbers.withoutUsingThirdVariable();
+		numbers.withoutusingThirdVariable();
 	}
 
 }

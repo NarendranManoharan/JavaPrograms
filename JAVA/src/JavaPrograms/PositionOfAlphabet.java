@@ -6,6 +6,7 @@ public class PositionOfAlphabet {
 
 	public static void main(String[] args) {
 
+		
 		//ASCII  97->a, 65->A
 
 		Scanner scanner=new Scanner(System.in);

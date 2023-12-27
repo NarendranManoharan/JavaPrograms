@@ -2,7 +2,7 @@ package JAVAConcepts;
 
 
 public class practicecode {
-	 static String day="wednesday";
+	 static String day="saturday";
 	 static String dayString;
 	 static {
 		 System.out.println("static block");
@@ -11,9 +11,9 @@ public class practicecode {
 	      
 		switch(day) {
 		case "monday":	
-			break;
+			
 		case "tuesday":	
-			break;
+			
 		case "wednesday":
 
  		case "thursday":

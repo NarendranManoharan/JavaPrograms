@@ -4,7 +4,7 @@ public class LengthofString {
 
 	public static void main(String[] args) {
 		
-		String name="Narendran";
+		/*String name="Narendran";
 		//System.out.println(name.length());
          char[] character=name.toCharArray();
          
@@ -12,7 +12,12 @@ public class LengthofString {
          for(char nameArray:character){
         	 length++;
          }
-         System.out.println(length);
+         System.out.println(length);*/
+         
+         
+         String whatsUrname="My Name";
+        Boolean result=whatsUrname.toLowerCase().matches("[aeiou]");
+         System.out.println(result);
 	}
 
 }

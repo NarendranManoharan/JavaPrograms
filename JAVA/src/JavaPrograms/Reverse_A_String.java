@@ -9,8 +9,8 @@ public class Reverse_A_String {
 
 	public void usingStringbuffer() {
 		
-		StringBuffer name=new StringBuffer();
-		name.append("ABCDE");
+		StringBuffer name=new StringBuffer("Naren");
+		//name.append("ABCDE");
 		StringBuffer reversed=name.reverse();
 		System.out.println(reversed);
 		
@@ -49,7 +49,7 @@ public class Reverse_A_String {
 	public static void main(String[] args) {
 		
 		Reverse_A_String aString=new  Reverse_A_String();
-		aString.usingCollections();
+		aString.usingownLogic();
 
 	}
 

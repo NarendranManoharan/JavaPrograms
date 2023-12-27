@@ -3,14 +3,16 @@ package JavaPrograms;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 
 public class find_element_in_Array {
 
 	public static void main(String[] args) {
 		
 		int[] array= {1, 2, 3, 4, 5};
+		Scanner scanner=new Scanner(System.in);
+		int numberToFind=scanner.nextInt();
 		
-		int numberToFind=2;
 		
 		Boolean found=false;
 		

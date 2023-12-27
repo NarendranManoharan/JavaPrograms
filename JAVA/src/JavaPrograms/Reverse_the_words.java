@@ -17,17 +17,7 @@ public class Reverse_the_words {
 			
 		}
 		System.out.println(" ");
-		String s1="abc";
-		String s2="defg";
-		String s3="hij";
-		
-		String appended=s1.concat(s2).concat(s3);
-		
-		StringBuffer s=new StringBuffer(s1);
-		s.append(s2);
-		s.append(s3);
 	
-       System.out.println(appended);
 		
 	}
 
